@@ -424,7 +424,7 @@ private:
 
   //
   // fix up anything that may be wrong due to past bugs
-  //virtual void fixup();
+  virtual void fixup();
 
   bool m_run_checkpoint;
   std::unique_ptr<boost::thread> m_checkpoint_thread;

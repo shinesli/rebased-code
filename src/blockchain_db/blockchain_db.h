@@ -1499,7 +1499,7 @@ public:
   /**
    * @brief fix up anything that may be wrong due to past bugs
    */
-  // virtual void fixup();
+  virtual void fixup();
 
   /**
    * @brief set whether or not to automatically remove logs
