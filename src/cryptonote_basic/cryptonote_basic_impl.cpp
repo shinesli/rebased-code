@@ -106,12 +106,13 @@ namespace cryptonote {
     const int target = version < 2 && height < HARDFORK_1_HEIGHT ? DIFFICULTY_TARGET_V1 : DIFFICULTY_TARGET_V2;
     const int target_minutes = target / 60;
     const int emission_speed_factor = EMISSION_SPEED_FACTOR_PER_MINUTE - ::log2(target_minutes);    // we assume target_minutes to be power of 2
+	
 	const uint64_t total = ((uint64_t)(-1));
-	const uint64_t premine = (0.12*total);
-+    if (median_size > 0 && already_generated_coins < premine) {
-+      reward = premine;
-+      return true;
-+    }
+	const uint64_t premine = (0.16*total);
+    if (median_size > 0 && already_generated_coins < premine) {
+      reward = premine;
+      return true;
+    }
 
     uint64_t base_reward = (MONEY_SUPPLY - already_generated_coins) >> emission_speed_factor;
     if (base_reward < FINAL_SUBSIDY_PER_MINUTE*target_minutes)
