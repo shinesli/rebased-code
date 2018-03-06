@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# rebased-code
-=======
 # Rebased-code
 >>>>>>> 5cb9975c6bdfb85ce2c8db41abb2267e0fe7b690
 
