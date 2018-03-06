@@ -158,13 +158,13 @@ namespace config
   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0xB2;                // starts with "Wm"
   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x2733;   // starts with "Wz"
   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x06B8;           // starts with "Xn"
-  uint16_t const P2P_DEFAULT_PORT = 11180;
-  uint16_t const RPC_DEFAULT_PORT = 11181;
-  uint16_t const ZMQ_RPC_DEFAULT_PORT = 11182;
+  uint16_t const P2P_DEFAULT_PORT = 11888;
+  uint16_t const RPC_DEFAULT_PORT = 11666;
+  uint16_t const ZMQ_RPC_DEFAULT_PORT = 11688;
   boost::uuids::uuid const NETWORK_ID = { {
-      0x32 ,0x32, 0xF3, 0x91 , 0x81, 0x18 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10
+      0x88 ,0x86, 0xF6, 0x81 , 0x91, 0x16 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121012bf2d282da90cee9c7a28c16e81418101ee28607d9e50f706594ee144a453b68";
+  std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013bf3d282da90cee9c7a28c16e81418101ee28607d9e50f706594ee144a453b68";
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
@@ -172,11 +172,11 @@ namespace config
     uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x0426;              // starts with "Um"
     uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x2C27;   // starts with "Uz"
     uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x0AAC;           // starts with "Vn"
-    uint16_t const P2P_DEFAULT_PORT = 21180;
-    uint16_t const RPC_DEFAULT_PORT = 21181;
-    uint16_t const ZMQ_RPC_DEFAULT_PORT = 21182;
+    uint16_t const P2P_DEFAULT_PORT = 21188;
+    uint16_t const RPC_DEFAULT_PORT = 21166;
+    uint16_t const ZMQ_RPC_DEFAULT_PORT = 21168;
     boost::uuids::uuid const NETWORK_ID = { {
-        0x32 ,0x32, 0xF3, 0x91 , 0x81, 0x18 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x11
+        0x88 ,0x86, 0xF6, 0x81 , 0x91, 0x16 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x11
       } }; // Bender's daydream
     std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210102711ad6274bcf3fa49cf5a99ec02fd3bbfef2dc64fc388df55e7ed8dc310a6f";
     uint32_t const GENESIS_NONCE = 10001;
