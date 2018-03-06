@@ -164,7 +164,8 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0x88 ,0x86, 0xF6, 0x81 , 0x91, 0x16 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013bf3d282da90cee9c7a28c16e81418101ee28607d9e50f706594ee144a453b68";
+  //std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013bf3d282da90cee9c7a28c16e81418101ee28607d9e50f706594ee144a453b68";
+  std::string const GENESIS_TX = "";
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
@@ -178,7 +179,8 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x88 ,0x86, 0xF6, 0x81 , 0x91, 0x16 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x11
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210102711ad6274bcf3fa49cf5a99ec02fd3bbfef2dc64fc388df55e7ed8dc310a6f";
+    //std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210102711ad6274bcf3fa49cf5a99ec02fd3bbfef2dc64fc388df55e7ed8dc310a6f";
+	std::string const GENESIS_TX = "";
     uint32_t const GENESIS_NONCE = 10001;
   }
 }
