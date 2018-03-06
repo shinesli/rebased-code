@@ -375,13 +375,13 @@ namespace nodetool
     {
       // full_addrs.insert("74.91.23.186:21180");
       // full_addrs.insert("192.187.114.114:21180");
-      full_addrs.insert("162.210.173.150:21180");
-      full_addrs.insert("162.210.173.151:21180");
+      //full_addrs.insert("162.210.173.150:21180");
+      //full_addrs.insert("162.210.173.151:21180");
     }
     else
     {
-      full_addrs.insert("74.91.23.186:11180");
-      full_addrs.insert("192.187.114.114:11180");
+      full_addrs.insert("35.226.40.29:11888");
+      full_addrs.insert("35.224.126.51:11888");
     }
     return full_addrs;
   }
